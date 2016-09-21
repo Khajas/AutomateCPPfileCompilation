@@ -49,8 +49,6 @@ int main (void){
 }
 string FileNames(){
 	string file_Name="Students.txt";
-	system("E:");
-	system("cd E:\\TA\\Programs");
 	system("dir /b /a-d> Students.txt");
 	return file_Name;
 }
